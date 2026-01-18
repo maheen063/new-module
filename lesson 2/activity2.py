@@ -1,0 +1,12 @@
+def OnTime(n):
+    iteration = 0
+    for i in range(1, n + 1):
+        iteration += 1
+    
+    print("When n is :", n, "the total iterations done by code is:", iteration)
+
+OnTime(10)
+OnTime(20)
+OnTime(42)
+
+print("\n With every n the time taken and iterations done will increase")
